@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA8E9B8127A990660047F946 /* the_motherfucking_uhApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E9B8027A990660047F946 /* the_motherfucking_uhApp.swift */; };
+		AA8E9B8327A990660047F946 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E9B8227A990660047F946 /* ContentView.swift */; };
+		AA8E9B8527A9906A0047F946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8E9B8427A9906A0047F946 /* Assets.xcassets */; };
+		AA8E9B8827A9906A0047F946 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8E9B8727A9906A0047F946 /* Preview Assets.xcassets */; };
+		AA8E9B9227A9906B0047F946 /* the_motherfucking_uhTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E9B9127A9906B0047F946 /* the_motherfucking_uhTests.swift */; };
+		AA8E9B9C27A9906B0047F946 /* the_motherfucking_uhUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E9B9B27A9906B0047F946 /* the_motherfucking_uhUITests.swift */; };
+		AA8E9B9E27A9906B0047F946 /* the_motherfucking_uhUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E9B9D27A9906B0047F946 /* the_motherfucking_uhUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA8E9B8E27A9906B0047F946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8E9B7527A990660047F946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8E9B7C27A990660047F946;
+			remoteInfo = "the motherfucking uh";
+		};
+		AA8E9B9827A9906B0047F946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8E9B7527A990660047F946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8E9B7C27A990660047F946;
+			remoteInfo = "the motherfucking uh";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA8E9B7D27A990660047F946 /* the motherfucking uh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "the motherfucking uh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8E9B8027A990660047F946 /* the_motherfucking_uhApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_motherfucking_uhApp.swift; sourceTree = "<group>"; };
+		AA8E9B8227A990660047F946 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA8E9B8427A9906A0047F946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA8E9B8727A9906A0047F946 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA8E9B8D27A9906B0047F946 /* the motherfucking uhTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "the motherfucking uhTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8E9B9127A9906B0047F946 /* the_motherfucking_uhTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_motherfucking_uhTests.swift; sourceTree = "<group>"; };
+		AA8E9B9727A9906B0047F946 /* the motherfucking uhUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "the motherfucking uhUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8E9B9B27A9906B0047F946 /* the_motherfucking_uhUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_motherfucking_uhUITests.swift; sourceTree = "<group>"; };
+		AA8E9B9D27A9906B0047F946 /* the_motherfucking_uhUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_motherfucking_uhUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8E9B7A27A990660047F946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8E9B8A27A9906B0047F946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8E9B9427A9906B0047F946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8E9B7427A990660047F946 = {
+			isa = PBXGroup;
+			children = (
+				AA8E9B7F27A990660047F946 /* the motherfucking uh */,
+				AA8E9B9027A9906B0047F946 /* the motherfucking uhTests */,
+				AA8E9B9A27A9906B0047F946 /* the motherfucking uhUITests */,
+				AA8E9B7E27A990660047F946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8E9B7E27A990660047F946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8E9B7D27A990660047F946 /* the motherfucking uh.app */,
+				AA8E9B8D27A9906B0047F946 /* the motherfucking uhTests.xctest */,
+				AA8E9B9727A9906B0047F946 /* the motherfucking uhUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8E9B7F27A990660047F946 /* the motherfucking uh */ = {
+			isa = PBXGroup;
+			children = (
+				AA8E9B8027A990660047F946 /* the_motherfucking_uhApp.swift */,
+				AA8E9B8227A990660047F946 /* ContentView.swift */,
+				AA8E9B8427A9906A0047F946 /* Assets.xcassets */,
+				AA8E9B8627A9906A0047F946 /* Preview Content */,
+			);
+			path = "the motherfucking uh";
+			sourceTree = "<group>";
+		};
+		AA8E9B8627A9906A0047F946 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA8E9B8727A9906A0047F946 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA8E9B9027A9906B0047F946 /* the motherfucking uhTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA8E9B9127A9906B0047F946 /* the_motherfucking_uhTests.swift */,
+			);
+			path = "the motherfucking uhTests";
+			sourceTree = "<group>";
+		};
+		AA8E9B9A27A9906B0047F946 /* the motherfucking uhUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA8E9B9B27A9906B0047F946 /* the_motherfucking_uhUITests.swift */,
+				AA8E9B9D27A9906B0047F946 /* the_motherfucking_uhUITestsLaunchTests.swift */,
+			);
+			path = "the motherfucking uhUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8E9B7C27A990660047F946 /* the motherfucking uh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8E9BA127A9906B0047F946 /* Build configuration list for PBXNativeTarget "the motherfucking uh" */;
+			buildPhases = (
+				AA8E9B7927A990660047F946 /* Sources */,
+				AA8E9B7A27A990660047F946 /* Frameworks */,
+				AA8E9B7B27A990660047F946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "the motherfucking uh";
+			productName = "the motherfucking uh";
+			productReference = AA8E9B7D27A990660047F946 /* the motherfucking uh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA8E9B8C27A9906B0047F946 /* the motherfucking uhTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8E9BA427A9906B0047F946 /* Build configuration list for PBXNativeTarget "the motherfucking uhTests" */;
+			buildPhases = (
+				AA8E9B8927A9906B0047F946 /* Sources */,
+				AA8E9B8A27A9906B0047F946 /* Frameworks */,
+				AA8E9B8B27A9906B0047F946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8E9B8F27A9906B0047F946 /* PBXTargetDependency */,
+			);
+			name = "the motherfucking uhTests";
+			productName = "the motherfucking uhTests";
+			productReference = AA8E9B8D27A9906B0047F946 /* the motherfucking uhTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA8E9B9627A9906B0047F946 /* the motherfucking uhUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8E9BA727A9906B0047F946 /* Build configuration list for PBXNativeTarget "the motherfucking uhUITests" */;
+			buildPhases = (
+				AA8E9B9327A9906B0047F946 /* Sources */,
+				AA8E9B9427A9906B0047F946 /* Frameworks */,
+				AA8E9B9527A9906B0047F946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8E9B9927A9906B0047F946 /* PBXTargetDependency */,
+			);
+			name = "the motherfucking uhUITests";
+			productName = "the motherfucking uhUITests";
+			productReference = AA8E9B9727A9906B0047F946 /* the motherfucking uhUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8E9B7527A990660047F946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AA8E9B7C27A990660047F946 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AA8E9B8C27A9906B0047F946 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AA8E9B7C27A990660047F946;
+					};
+					AA8E9B9627A9906B0047F946 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AA8E9B7C27A990660047F946;
+					};
+				};
+			};
+			buildConfigurationList = AA8E9B7827A990660047F946 /* Build configuration list for PBXProject "the motherfucking uh" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8E9B7427A990660047F946;
+			productRefGroup = AA8E9B7E27A990660047F946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8E9B7C27A990660047F946 /* the motherfucking uh */,
+				AA8E9B8C27A9906B0047F946 /* the motherfucking uhTests */,
+				AA8E9B9627A9906B0047F946 /* the motherfucking uhUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8E9B7B27A990660047F946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8E9B8827A9906A0047F946 /* Preview Assets.xcassets in Resources */,
+				AA8E9B8527A9906A0047F946 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8E9B8B27A9906B0047F946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8E9B9527A9906B0047F946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8E9B7927A990660047F946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8E9B8327A990660047F946 /* ContentView.swift in Sources */,
+				AA8E9B8127A990660047F946 /* the_motherfucking_uhApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8E9B8927A9906B0047F946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8E9B9227A9906B0047F946 /* the_motherfucking_uhTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8E9B9327A9906B0047F946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8E9B9E27A9906B0047F946 /* the_motherfucking_uhUITestsLaunchTests.swift in Sources */,
+				AA8E9B9C27A9906B0047F946 /* the_motherfucking_uhUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA8E9B8F27A9906B0047F946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8E9B7C27A990660047F946 /* the motherfucking uh */;
+			targetProxy = AA8E9B8E27A9906B0047F946 /* PBXContainerItemProxy */;
+		};
+		AA8E9B9927A9906B0047F946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8E9B7C27A990660047F946 /* the motherfucking uh */;
+			targetProxy = AA8E9B9827A9906B0047F946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA8E9B9F27A9906B0047F946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA8E9BA027A9906B0047F946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8E9BA227A9906B0047F946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"the motherfucking uh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yo-mama.the-motherfucking-uh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA8E9BA327A9906B0047F946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"the motherfucking uh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yo-mama.the-motherfucking-uh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA8E9BA527A9906B0047F946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yo-mama.the-motherfucking-uhTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/the motherfucking uh.app/the motherfucking uh";
+			};
+			name = Debug;
+		};
+		AA8E9BA627A9906B0047F946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yo-mama.the-motherfucking-uhTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/the motherfucking uh.app/the motherfucking uh";
+			};
+			name = Release;
+		};
+		AA8E9BA827A9906B0047F946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yo-mama.the-motherfucking-uhUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "the motherfucking uh";
+			};
+			name = Debug;
+		};
+		AA8E9BA927A9906B0047F946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yo-mama.the-motherfucking-uhUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "the motherfucking uh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8E9B7827A990660047F946 /* Build configuration list for PBXProject "the motherfucking uh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8E9B9F27A9906B0047F946 /* Debug */,
+				AA8E9BA027A9906B0047F946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8E9BA127A9906B0047F946 /* Build configuration list for PBXNativeTarget "the motherfucking uh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8E9BA227A9906B0047F946 /* Debug */,
+				AA8E9BA327A9906B0047F946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8E9BA427A9906B0047F946 /* Build configuration list for PBXNativeTarget "the motherfucking uhTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8E9BA527A9906B0047F946 /* Debug */,
+				AA8E9BA627A9906B0047F946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8E9BA727A9906B0047F946 /* Build configuration list for PBXNativeTarget "the motherfucking uhUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8E9BA827A9906B0047F946 /* Debug */,
+				AA8E9BA927A9906B0047F946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8E9B7527A990660047F946 /* Project object */;
+}
