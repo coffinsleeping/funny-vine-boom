@@ -79,9 +79,9 @@
 		AA8E9B7427A990660047F946 = {
 			isa = PBXGroup;
 			children = (
-				AA8E9B7F27A990660047F946 /* the motherfucking uh */,
-				AA8E9B9027A9906B0047F946 /* the motherfucking uhTests */,
-				AA8E9B9A27A9906B0047F946 /* the motherfucking uhUITests */,
+				AA8E9B7F27A990660047F946 /* yomama */,
+				AA8E9B9027A9906B0047F946 /* yo mama Tests\ */,
+				AA8E9B9A27A9906B0047F946 /* yo mama UITests */,
 				AA8E9B7E27A990660047F946 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +96,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA8E9B7F27A990660047F946 /* the motherfucking uh */ = {
+		AA8E9B7F27A990660047F946 /* yomama */ = {
 			isa = PBXGroup;
 			children = (
 				AA5277D827AAE7680019DFDE /* the motherfucking uh.entitlements */,
@@ -106,7 +106,7 @@
 				AA8E9BAD27A996620047F946 /* vine boom.mp3 */,
 				AA8E9B8627A9906A0047F946 /* Preview Content */,
 			);
-			path = "the motherfucking uh";
+			path = yomama;
 			sourceTree = "<group>";
 		};
 		AA8E9B8627A9906A0047F946 /* Preview Content */ = {
@@ -117,21 +117,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		AA8E9B9027A9906B0047F946 /* the motherfucking uhTests */ = {
+		AA8E9B9027A9906B0047F946 /* yo mama Tests\ */ = {
 			isa = PBXGroup;
 			children = (
 				AA8E9B9127A9906B0047F946 /* the_motherfucking_uhTests.swift */,
 			);
-			path = "the motherfucking uhTests";
+			path = "yo mama Tests\\";
 			sourceTree = "<group>";
 		};
-		AA8E9B9A27A9906B0047F946 /* the motherfucking uhUITests */ = {
+		AA8E9B9A27A9906B0047F946 /* yo mama UITests */ = {
 			isa = PBXGroup;
 			children = (
 				AA8E9B9B27A9906B0047F946 /* the_motherfucking_uhUITests.swift */,
 				AA8E9B9D27A9906B0047F946 /* the_motherfucking_uhUITestsLaunchTests.swift */,
 			);
-			path = "the motherfucking uhUITests";
+			path = "yo mama UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
