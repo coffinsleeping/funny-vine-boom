@@ -14,6 +14,8 @@
 		AA8E9B9227A9906B0047F946 /* the_motherfucking_uhTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E9B9127A9906B0047F946 /* the_motherfucking_uhTests.swift */; };
 		AA8E9B9C27A9906B0047F946 /* the_motherfucking_uhUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E9B9B27A9906B0047F946 /* the_motherfucking_uhUITests.swift */; };
 		AA8E9B9E27A9906B0047F946 /* the_motherfucking_uhUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E9B9D27A9906B0047F946 /* the_motherfucking_uhUITestsLaunchTests.swift */; };
+		AA8E9BAC27A990F90047F946 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = AA8E9BAB27A990F90047F946 /* Subsonic */; };
+		AA8E9BAE27A996620047F946 /* vine boom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA8E9BAD27A996620047F946 /* vine boom.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA5277D827AAE7680019DFDE /* the motherfucking uh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "the motherfucking uh.entitlements"; sourceTree = "<group>"; };
 		AA8E9B7D27A990660047F946 /* the motherfucking uh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "the motherfucking uh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8E9B8027A990660047F946 /* the_motherfucking_uhApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_motherfucking_uhApp.swift; sourceTree = "<group>"; };
 		AA8E9B8227A990660047F946 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		AA8E9B9727A9906B0047F946 /* the motherfucking uhUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "the motherfucking uhUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8E9B9B27A9906B0047F946 /* the_motherfucking_uhUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_motherfucking_uhUITests.swift; sourceTree = "<group>"; };
 		AA8E9B9D27A9906B0047F946 /* the_motherfucking_uhUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_motherfucking_uhUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA8E9BAD27A996620047F946 /* vine boom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "vine boom.mp3"; path = "../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/vine boom.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8E9BAC27A990F90047F946 /* Subsonic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +99,11 @@
 		AA8E9B7F27A990660047F946 /* the motherfucking uh */ = {
 			isa = PBXGroup;
 			children = (
+				AA5277D827AAE7680019DFDE /* the motherfucking uh.entitlements */,
 				AA8E9B8027A990660047F946 /* the_motherfucking_uhApp.swift */,
 				AA8E9B8227A990660047F946 /* ContentView.swift */,
 				AA8E9B8427A9906A0047F946 /* Assets.xcassets */,
+				AA8E9BAD27A996620047F946 /* vine boom.mp3 */,
 				AA8E9B8627A9906A0047F946 /* Preview Content */,
 			);
 			path = "the motherfucking uh";
@@ -143,6 +150,9 @@
 			dependencies = (
 			);
 			name = "the motherfucking uh";
+			packageProductDependencies = (
+				AA8E9BAB27A990F90047F946 /* Subsonic */,
+			);
 			productName = "the motherfucking uh";
 			productReference = AA8E9B7D27A990660047F946 /* the motherfucking uh.app */;
 			productType = "com.apple.product-type.application";
@@ -206,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA8E9B7827A990660047F946 /* Build configuration list for PBXProject "the motherfucking uh" */;
+			buildConfigurationList = AA8E9B7827A990660047F946 /* Build configuration list for PBXProject "funny boom" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,6 +225,9 @@
 				Base,
 			);
 			mainGroup = AA8E9B7427A990660047F946;
+			packageReferences = (
+				AA8E9BAA27A990F90047F946 /* XCRemoteSwiftPackageReference "Subsonic" */,
+			);
 			productRefGroup = AA8E9B7E27A990660047F946 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +246,7 @@
 			files = (
 				AA8E9B8827A9906A0047F946 /* Preview Assets.xcassets in Resources */,
 				AA8E9B8527A9906A0047F946 /* Assets.xcassets in Resources */,
+				AA8E9BAE27A996620047F946 /* vine boom.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +430,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "the motherfucking uh/the motherfucking uh.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"the motherfucking uh/Preview Content\"";
+				DEVELOPMENT_TEAM = PJ9SM3HGBG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -444,9 +460,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "the motherfucking uh/the motherfucking uh.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"the motherfucking uh/Preview Content\"";
+				DEVELOPMENT_TEAM = PJ9SM3HGBG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -474,6 +492,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PJ9SM3HGBG;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -498,6 +517,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PJ9SM3HGBG;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -562,7 +582,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA8E9B7827A990660047F946 /* Build configuration list for PBXProject "the motherfucking uh" */ = {
+		AA8E9B7827A990660047F946 /* Build configuration list for PBXProject "funny boom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA8E9B9F27A9906B0047F946 /* Debug */,
@@ -599,6 +619,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA8E9BAA27A990F90047F946 /* XCRemoteSwiftPackageReference "Subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA8E9BAB27A990F90047F946 /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA8E9BAA27A990F90047F946 /* XCRemoteSwiftPackageReference "Subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA8E9B7527A990660047F946 /* Project object */;
 }
